@@ -1,6 +1,6 @@
 # Sun-setting development
 
-I do not use this extension anymore, so I don't have the motivation to keep maintaining it. If anyone wants to keep it maintained, feel free to contact me and I'll transfer the ownership.
+I do not use this extension anymore, so I don't have the motivation to keep maintaining it. If anyone wants to keep it maintained, feel free to contact me and I'll transfer the ownership. You can also try my new extension "Improved Media Controls" instead
 
 ## What does this extension do?
 
