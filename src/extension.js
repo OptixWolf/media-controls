@@ -737,6 +737,10 @@ export default class MediaControls extends Extension {
             Main.panel.statusArea.dateMenu._messageList._messageView?._mediaSource ??
             Main.panel.statusArea.dateMenu._messageList._mediaSection;
 
+        if (mediaSource == null || MprisSource == null) {
+            return;
+        }
+
         if (this.mediaSectionAddFunc && (shouldReset || this.hideMediaNotification === false)) {
             MprisSource.prototype._addPlayer = this.mediaSectionAddFunc;
             this.mediaSectionAddFunc = null;
